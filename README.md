@@ -19,6 +19,7 @@
 [sql server 產生 c# 類別](/sql%20server%20產生%20c%23%20類別.sql)
 
 [這個是在全球最大交友網站發現的](https://stackoverflow.com/questions/34336722/with-odp-net-create-c-sharp-class-struct-from-column-info-of-an-oracle-dbs-tab)
+
 [oracle 產生 view 的 c# 類別](/oracle%20產生%20view%20的%20c%23%20類別.sql)
 
 
