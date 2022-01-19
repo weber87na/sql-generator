@@ -30,4 +30,4 @@
 [sql server 產生手機號碼](/sql%20server%20產生手機號碼.sql)
 
 ### 產生 1 - N 內的亂數
-[sql server 產生 1 - N 內的亂數](sql%20server%20產生%201%20-%20N%20內的亂數.sql)
+[sql server cte 產生 1 - N 內的亂數](sql%20server%20cte%20產生%201%20-%20N%20內的亂數.sql)
