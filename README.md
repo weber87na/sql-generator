@@ -27,14 +27,4 @@
 [sql server 產生經緯度](/sql%20server%20產生經緯度.sql)
 
 ### 產生手機號碼
-```
-SELECT '09' 
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 100 ) as varchar)
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 10 ) as nchar(1) )
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 10 ) as nchar(1) )
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 10 ) as nchar(1) )
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 10 ) as nchar(1) )
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 10 ) as nchar(1) )
-	+ CAST( FLOOR( ROUND(((1) * RAND(CHECKSUM(NEWID()))), 9) * 10 ) as nchar(1) )
-	as phonenumber
-```
+[sql server 產生手機號碼](/sql%20server%20產生手機號碼.sql)
