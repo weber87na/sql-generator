@@ -2,6 +2,7 @@
 放些常用的生產類 SQL
 
 ### sql server 產生亂數中文名
+```
 WITH firstname(cname) AS (
 SELECT N'怡君' cname UNION ALL 
 SELECT N'雅婷' UNION ALL 
@@ -1118,9 +1119,10 @@ FROM(
 	CROSS JOIN lastname l
 ) X
 WHERE NUM = (SELECT FLOOR(RAND()*(103000-1+1))+1)
-
+```
 
 ### oracle 產生亂數中文名
+```
 WITH firstname AS (
 SELECT '怡君' as cname FROM DUAL UNION ALL  
 SELECT '雅婷' FROM DUAL UNION ALL  
@@ -2237,9 +2239,10 @@ FROM(
     CROSS JOIN lastname l
 )
 WHERE NUM = (SELECT round(dbms_random.value(1,103000)) FROM DUAL)
-
+```
 
 ### sql server 產生 mardown 資料字典
+```
 select 'schema_name' , '|' ,
 	'table_name' , '|' ,
 	'column_name' , '|' ,
@@ -2406,3 +2409,4 @@ select schema_name(tab.schema_id) as schema_name, '|' ,
   --order by schema_name,
   --      table_name, 
   --      column_name;   
+```
