@@ -2,6 +2,8 @@
 放些常用的生產類 SQL
 
 ### 產生亂數中文名
+[參考自台灣百家姓](https://taiwan.chtsai.org/2006/01/10/taiwan_baijiaxing/) 及 [這個網站的名字](http://www.name104.com/name-hot2.php#.YeeFpugzaUk)
+
 [sql server 產生亂數中文名](/sql%20server%20產生%20markdown%20資料字典.sql)
 
 [oracle 產生亂數中文名](/oracle%20產生亂數中文名.sql)
